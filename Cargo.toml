@@ -1,0 +1,13 @@
+[package]
+name = "project-desc"
+version = "0.1.0"
+authors = ["Hagsteel <me@hagsteel.com>"]
+edition = "2018"
+description = "Here be a description that is somewhat long"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = "1.0.117"
+serde_derive = "1.0.117"
+toml = "0.5.7"
